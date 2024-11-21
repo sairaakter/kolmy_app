@@ -1,0 +1,1777 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* header */
+  .d-lg-none {
+    display: flex !important; /* Show buttons next to the toggle on md screens */
+  }
+  .collapse.navbar-collapse {
+    text-align: center; /* Center align the collapsed menu items */
+  }
+  /* Styling for the buttons */
+  .buton {
+    padding: 8px 20px;
+    border-radius: 31px;
+    border: 1px solid black;
+    margin: 10px 6px;
+    width: 100%;
+  }
+
+  /* Register Now button gradient style */
+  .cus_b {
+    color: white;
+    background: linear-gradient(
+      45deg,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #6e58db,
+      #6e58db
+    );
+    border: none;
+  }
+
+  .cus_b:hover {
+    background: linear-gradient(
+      45deg,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #6e58db,
+      #6e58db
+    );
+    color: white;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /* Align the navbar items horizontally */
+  .nav-link {
+  }
+  .li a {
+    margin-right: 0 !important;
+  }
+  .dropdown-item {
+    margin: 0 !important;
+    padding-left: 16px;
+    padding-right: 10px;
+  }
+  .drop
+      /* Aligning the dropdown items and menu to the right */
+      .navbar-nav .nav-link {
+    background: linear-gradient(
+      to right,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #e8388d,
+      #6e58db
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right !important; /* Aligning text to the right */
+    display: inline-block; /* Ensures the gradient is applied across the text */
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link.active {
+    background: linear-gradient(to right, #febd4c, #fe7718, #e8388d, #6e58db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right !important; /* Aligning text to the right */
+    display: inline-block; /* Ensures the gradient is applied across the text */
+  }
+  .li {
+    text-align: center;
+  }
+  .collapse.navbar-collapse {
+    padding: 15px 0;
+  }
+  .navbar .nav-link,
+  .navbar .btn {
+    line-height: 1; /* Adjust as needed */
+  }
+  .nncls {
+    display: none !important;
+  }
+  .d-col-none {
+    display: none !important;
+  }
+  .nav-link {
+    padding: 14px 0;
+  }
+  .d-col-flex {
+    display: flex !important;
+  }
+  .navbar .nav-link,
+  .navbar .btn {
+    line-height: 1.5;
+  }
+  .d_nav {
+    display: flex !important;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* banner start */
+  .left h1 {
+    margin-top: 72px;
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
+  .left p {
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+  .boton {
+    margin-bottom: 72px;
+    line-height: 1.5;
+    width: 145px;
+    font-size: 11px;
+  }
+  .c_cus {
+    margin-right: 5px;
+  }
+  .rndom h2 {
+    font-size: 30px;
+  }
+  .formd {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .wdt {
+    width: 323px;
+  }
+  .cmn {
+    display: flex;
+  }
+  .rndom p {
+    font-size: 12px;
+  }
+  .rndom .icn {
+    margin-right: 5px;
+  }
+  /* platform start */
+  .platform {
+    padding: 65px 0;
+  }
+  .com_h1 h1 {
+    font-size: 30px;
+  }
+  .cus_stl p {
+    margin: 18px 0 40px 0;
+    font-size: 15px;
+  }
+  .p-3 {
+    padding: 8px !important;
+  }
+  /* buton direction chang */
+  .hold {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+  }
+  .media2,
+  .media3 {
+    order: 1; /* Move these buttons to the top */
+    width: 48%; /* Set width to place them side by side */
+    margin: 0 0; /* Space between the two buttons */
+    margin-bottom: 10px;
+  }
+
+  .media1 {
+    order: 2; /* Move Button 1 to the bottom */
+    width: 100%; /* Full width for the bottom button */
+  }
+  .pad {
+    margin-bottom: 20px;
+  }
+  /* badgs */
+
+  .follower-badge {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+  .follower-badge img {
+    margin-right: 5px !important;
+  }
+  .star-badge {
+    width: 30px;
+    height: 30px;
+  }
+  .heart-icon {
+    width: 32px;
+    height: 32px;
+  }
+  /* // */
+  .life {
+    font-size: 13px;
+  }
+  .card-title {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .heigs {
+    font-size: 14px;
+  }
+  .vew {
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  .v_tu {
+    line-height: 1.5;
+  }
+  .crd_p {
+    margin-left: 5px;
+  }
+  .card {
+    border-radius: 10px;
+  }
+  .image-container {
+    border-radius: 10px;
+  }
+  .v_tu {
+    padding: 7px 0;
+  }
+  /* custom for platform */
+  .crd_p {
+    margin-left: 1px;
+    font-size: 9px;
+  }
+  .heigs {
+    font-size: 12px;
+  }
+  .v_tu {
+    padding: 5px 0;
+  }
+  .life {
+    font-size: 12px;
+  }
+  .follower-badge img {
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 2px !important;
+  }
+  .follower-badge {
+    padding: 2px 5px;
+    font-size: 9px;
+    top: 4px;
+    left: 4px;
+  }
+  .star-badge {
+    width: 21px;
+    height: 21px;
+    top: 4px;
+    right: 4px;
+    font-size: 10px;
+  }
+  .heart-icon {
+    width: 21px;
+    height: 21px;
+    padding: 4px;
+    bottom: 4px;
+    right: 4px;
+  }
+  .shr {
+    width: 20px;
+    height: 20px;
+  }
+  .chrt {
+    width: 20px;
+    height: 20px;
+  }
+  /* profile start */
+  .profile {
+    padding-bottom: 65px;
+  }
+
+  .pro_con h1 {
+    font-size: 25px;
+    padding: 14px 0 8px 10px;
+  }
+  .cus_pro h1 {
+    padding: 14px 0 9px 10px;
+  }
+  .pro_con .botom {
+    font-size: 11px;
+    line-height: 1.5;
+    width: 119px;
+    padding: 10px 0;
+    margin: 0 0 140px 8px;
+  }
+
+  .pro_lft {
+  }
+  /* infulencers start */
+  .influencers {
+    padding-bottom: 65px;
+  }
+  .influ_b {
+    margin: 10px 0 24px 0;
+  }
+  .infu_btn {
+    width: 105px;
+    margin-right: 12px;
+    line-height: 1.5;
+    font-size: 11px;
+    padding: 7px 0px;
+  }
+  .see {
+    margin-top: 30px;
+  }
+  .m_infu {
+    margin-bottom: 0px;
+  }
+  .insfu_ins {
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+  }
+  .infu_see {
+    height: 44px;
+    width: 115px;
+    margin-right: 0;
+  }
+  /* brand promotion start */
+  .brand {
+    padding-bottom: 65px;
+  }
+  .pro_tct h1 {
+    font-size: 17px;
+    margin: 18px 0 50px 12px;
+  }
+  .band_pad {
+    border-radius: 11px;
+  }
+  .brnd_img {
+    margin-right: 0px;
+  }
+  .purple img {
+    width: 50px;
+    height: 60px;
+  }
+  .orange img {
+    width: 50px;
+    height: 86px;
+  }
+  .pink img {
+    width: 50px;
+    height: 78px;
+  }
+  .brnd_img img {
+    height: 224px;
+    margin-top: -32px;
+  }
+  .bar p {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  .bars-section {
+    margin-left: 10px;
+  }
+  /* help varity start start start */
+  .help {
+    padding-bottom: 65px;
+  }
+  .curved-lines {
+    left: -28px;
+    width: 351px;
+    padding: 64px 0px 0px 0px;
+    background-size: 100% 185px;
+  }
+
+  .msc {
+    margin-left: 43.5px;
+  }
+  .help_p {
+    margin-left: 43.5px !important;
+  }
+  /* help start */
+  .help_margn {
+    margin-top: -170px;
+  }
+  .hep_content {
+    margin-bottom: 60px;
+  }
+  .hep_content h2 {
+    font-size: 20px;
+    margin: 16px 0 16px 0;
+  }
+  .hep_content p {
+    width: 100%;
+  }
+  .hep_content img {
+    width: 30px;
+    height: 30px;
+  }
+  /* question start start start */
+  .question {
+    padding-bottom: 65px;
+  }
+  .ques h1 {
+    text-align: left;
+    margin-bottom: 60px;
+  }
+
+  .main_ques {
+    font-size: 20px;
+    width: 93%;
+  }
+  .ro_bagn {
+    width: 40px;
+    height: 40px;
+  }
+  .faq-answer {
+    font-size: 15px;
+    margin: 0px 0 40px 0;
+    width: 91%;
+  }
+  .to_img {
+    width: 24px;
+    height: 24px;
+  }
+  .faq-divider {
+    margin: 10px 0;
+  }
+  /* logos start */
+  .logooo {
+    padding-bottom: 65px;
+  }
+  .blck_ipsum img {
+    margin: 12px 20px;
+  }
+  .log_con p {
+    margin-bottom: 35px;
+  }
+  /* ceo start */
+  .ceo {
+    padding-bottom: 65px;
+  }
+  .c_conten h2 {
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+  .intro_img img {
+    width: 55px;
+    height: 55px;
+  }
+  .c_conten {
+    width: 92%;
+    left: 40%;
+  }
+  .for_ceo h1 {
+    text-align: left !important;
+    margin-bottom: 130px;
+  }
+  .for_xl {
+    margin-left: 30px !important;
+  }
+
+  .c_img {
+    margin-bottom: 55px;
+  }
+  /* cmbine footers */
+  .man_foter {
+    margin: 22px 0 0 0;
+    padding: 60px 0 32px 0;
+  }
+  .foot_con {
+    text-align: center;
+    width: 300px;
+    margin: 113px auto;
+  }
+  .foter_navbar {
+    margin-bottom: 20px;
+  }
+  .copyright {
+    margin-top: 32px;
+  }
+  .fot_nav ul li a {
+    text-align: center !important;
+    font-size: 15px;
+    margin-top: 105px;
+    margin-right: 10px !important;
+    margin-left: 0;
+  }
+  .foot_con p {
+    font-size: 15px;
+  }
+  .copy_conten p {
+    font-size: 12px;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .twentyto {
+    font-size: 12px;
+  }
+  .graa {
+    font-size: 12px;
+  }
+  .foot_con h1 {
+    font-size: 30px;
+  }
+  .foot_se {
+    margin-top: 15px;
+  }
+  .navbr_fut {
+    display: flex;
+    flex-direction: row;
+  }
+  .copy_conten {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+  }
+  .bg-image {
+    background-image: url(../assets/footer_img.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    /* padding: 61px; */
+    border-radius: 42px;
+    background-repeat: no-repeat;
+  }
+  .fot_icon {
+    margin-top: -174px;
+  }
+  .layout {
+    display: flex !important;
+    flex-wrap: inherit !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    flex-direction: column;
+  }
+  .fot_icon .img {
+    cursor: pointer;
+    margin-right: 8px;
+    width: 21px;
+    height: 21px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header */
+  .d-lg-none {
+    display: flex !important; /* Show buttons next to the toggle on md screens */
+  }
+  .collapse.navbar-collapse {
+    text-align: center; /* Center align the collapsed menu items */
+  }
+  /* Styling for the buttons */
+  .buton {
+    padding: 8px 20px;
+    border-radius: 31px;
+    border: 1px solid black;
+    margin: 0 6px;
+  }
+
+  /* Register Now button gradient style */
+  .cus_b {
+    color: white;
+    background: linear-gradient(
+      45deg,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #6e58db,
+      #6e58db
+    );
+    border: none;
+  }
+
+  .cus_b:hover {
+    background: linear-gradient(
+      45deg,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #6e58db,
+      #6e58db
+    );
+    color: white;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+  /* Align the navbar items horizontally */
+  .nav-link {
+    padding: 15px 0;
+  }
+  .nncls {
+    padding: 0;
+  }
+
+  .li a {
+    margin-right: 0 !important;
+  }
+  .dropdown-item {
+    margin: 0 !important;
+    padding-left: 16px;
+    padding-right: 10px;
+  }
+  .drop
+  /* Aligning the dropdown items and menu to the right */
+  .navbar-nav .nav-link {
+    background: linear-gradient(
+      to right,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #e8388d,
+      #6e58db
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right !important; /* Aligning text to the right */
+    display: inline-block; /* Ensures the gradient is applied across the text */
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link.active {
+    background: linear-gradient(to right, #febd4c, #fe7718, #e8388d, #6e58db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right !important; /* Aligning text to the right */
+    display: inline-block; /* Ensures the gradient is applied across the text */
+  }
+  .li {
+    text-align: end;
+  }
+  .collapse.navbar-collapse {
+    padding: 15px 0;
+  }
+  .navbar .nav-link,
+  .navbar .btn {
+    line-height: 1.5; /* Adjust as needed */
+  }
+  .nncls {
+    display: none !important;
+  }
+  .nav-link {
+    padding: 14px 0;
+  }
+  /* banner start */
+  .left h1 {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    font-size: 55px;
+  }
+  .left p {
+    font-size: 16px;
+  }
+  .boton {
+    margin-bottom: 95px;
+    line-height: 1.5;
+  }
+  .c_cus {
+    margin-right: 15px;
+  }
+  .rndom h2 {
+    font-size: 40px;
+  }
+  .formd {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .banner {
+    padding: 80px 0;
+  }
+  /* platform start */
+  .platform {
+    padding: 80px 0;
+  }
+  .com_h1 h1 {
+    font-size: 33px;
+  }
+  .cus_stl p {
+    margin: 18px 0 40px 0;
+    font-size: 16px;
+  }
+  .p-3 {
+    padding: 16px !important;
+  }
+  /* buton direction chang */
+  .hold {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+  }
+  .media2,
+  .media3 {
+    order: 1; /* Move these buttons to the top */
+    width: 48%; /* Set width to place them side by side */
+    margin: 0 0; /* Space between the two buttons */
+    margin-bottom: 10px;
+  }
+
+  .media1 {
+    order: 2; /* Move Button 1 to the bottom */
+    width: 100%; /* Full width for the bottom button */
+  }
+  .pad {
+    margin-bottom: 20px;
+  }
+  /* badgs */
+
+  .follower-badge {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+  .follower-badge img {
+    margin-right: 5px !important;
+  }
+  .star-badge {
+    width: 30px;
+    height: 30px;
+  }
+  .heart-icon {
+    width: 32px;
+    height: 32px;
+  }
+  /* // */
+  .life {
+    font-size: 13px;
+  }
+  .card-title {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .heigs {
+    font-size: 14px;
+  }
+  .vew {
+    line-height: 1.5;
+  }
+  .v_tu {
+    line-height: 1.5;
+  }
+  .crd_p {
+    margin-left: 5px;
+  }
+  .v_tu {
+    padding: 7px 0;
+  }
+  /* profile start */
+  .profile {
+    padding-bottom: 160px;
+  }
+
+  .pro_con h1 {
+    font-size: 40px;
+    padding: 74px 0 43px 40px;
+  }
+  .cus_pro h1 {
+    padding: 34px 0 30px 40px;
+  }
+  .pro_con .botom {
+    line-height: 1.5;
+    width: 186px;
+  }
+
+  .pro_lft {
+    margin-bottom: 40px;
+  }
+  /* infulencers start */
+  .influencers {
+    padding-bottom: 80px;
+  }
+  .influ_b {
+    margin: 20px 0 40px 0;
+  }
+  .infu_btn {
+    margin-right: 12px;
+    line-height: 1.5;
+  }
+  .see {
+    margin-top: 35px;
+  }
+  .m_infu {
+    margin-bottom: 0px;
+  }
+  .insfu_ins {
+    width: 19px;
+    height: 19px;
+  }
+  .infu_see {
+    margin-right: 0;
+  }
+  /* brand promotion start */
+  .brand {
+    padding-bottom: 80px;
+  }
+  .pro_tct h1 {
+    font-size: 27px;
+    margin: 21px 0 50px 21px;
+  }
+  .brnd_img {
+    margin-right: 0px;
+  }
+  .purple img {
+    width: 100px;
+    height: 85px;
+  }
+  .orange img {
+    width: 100px;
+    height: 141px;
+  }
+  .pink img {
+    width: 100px;
+    height: 118px;
+  }
+  .brnd_img img {
+    height: 360px;
+    margin-top: -53px;
+  }
+  .bar p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .bars-section {
+    margin-left: 15px;
+  }
+  /* help varity start start start */
+  .help {
+    padding-bottom: 80px;
+  }
+  .curved-lines {
+    width: 556px;
+    padding: 71px 0px 0px 0px;
+  }
+
+  .msc {
+    margin-left: 70.5px;
+  }
+  .help_p {
+    margin-left: 70.5px !important;
+  }
+  /* help start */
+  .help_margn {
+    margin-top: -170px;
+    margin-left: 70.5px;
+  }
+  .hep_content {
+    margin-bottom: 60px;
+  }
+  .hep_content h2 {
+    font-size: 20px;
+    margin: 18px 0 16px 0;
+  }
+  .hep_content p {
+    width: 180px;
+  }
+  /* question start start start */
+  .question {
+    padding-bottom: 80px;
+  }
+  .ques h1 {
+    margin-bottom: 70px;
+  }
+  .main_ques {
+    font-size: 22px;
+    width: 93%;
+  }
+  .ro_bagn {
+    width: 40px;
+    height: 40px;
+  }
+  .faq-answer {
+    font-size: 16px;
+    margin: 0px 0 40px 0;
+    width: 91%;
+  }
+  .to_img {
+    width: 24px;
+    height: 24px;
+  }
+  /* logos start */
+  .logooo {
+    padding-bottom: 80px;
+  }
+  .blck_ipsum img {
+    margin: 12px 40px;
+  }
+  .log_con p {
+    margin-bottom: 35px;
+  }
+  /* ceo start */
+  .ceo {
+    padding-bottom: 80px;
+  }
+  .c_conten h2 {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  .intro_img img {
+    width: 60px;
+    height: 60px;
+  }
+  .c_conten {
+    width: 92%;
+    left: 40%;
+  }
+  .for_ceo h1 {
+    text-align: left !important;
+    margin-bottom: 130px;
+  }
+  .for_xl {
+    margin-left: 30px !important;
+  }
+
+  .c_img {
+    margin-bottom: 55px;
+  }
+  /* cmbine footers */
+  .man_foter {
+    margin: 44px 0 0 0;
+    padding: 75px 0 32px 0;
+  }
+  .foot_con {
+    text-align: center;
+    width: 300px;
+    margin: 83px auto;
+  }
+  .foter_navbar {
+    margin-bottom: 20px;
+  }
+  .copyright {
+    margin-top: 32px;
+  }
+  .fot_nav ul li a {
+    font-size: 15px;
+    margin-top: 105px;
+    margin-right: 24px !important;
+    margin-left: 0;
+  }
+  .foot_con p {
+    font-size: 18px;
+  }
+  .copy_conten p {
+    font-size: 14px;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .foot_con h1 {
+    font-size: 33px;
+  }
+  .foot_se {
+    margin-top: 15px;
+  }
+  .navbr_fut {
+    display: flex;
+    flex-direction: row;
+  }
+  .copy_conten {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+  }
+  .bg-image {
+    background-image: url(../assets/footer_img.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+    /* padding: 61px; */
+    border-radius: 54px;
+    background-repeat: no-repeat;
+  }
+  .fot_icon {
+    margin-top: -174px;
+  }
+  .layout {
+    display: flex !important;
+    flex-wrap: inherit !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    flex-direction: column;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header */
+  .d-lg-none {
+    display: flex !important; /* Show buttons next to the toggle on md screens */
+  }
+  .collapse.navbar-collapse {
+    text-align: center; /* Center align the collapsed menu items */
+  }
+  /* Styling for the buttons */
+  .buton {
+    padding: 8px 20px;
+    border-radius: 31px;
+    border: 1px solid black;
+    margin: 0 6px;
+  }
+
+  /* Register Now button gradient style */
+  .cus_b {
+    color: white;
+    background: linear-gradient(
+      45deg,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #6e58db,
+      #6e58db
+    );
+    border: none;
+  }
+
+  .cus_b:hover {
+    background: linear-gradient(
+      45deg,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #6e58db,
+      #6e58db
+    );
+    color: white;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+  /* Align the navbar items horizontally */
+  .nav-link {
+    padding: 14px 0;
+  }
+  .li a {
+    margin-right: 0 !important;
+  }
+  .dropdown-item {
+    margin: 0 !important;
+    padding-left: 16px;
+    padding-right: 10px;
+  }
+  .drop
+  /* Aligning the dropdown items and menu to the right */
+  .navbar-nav .nav-link {
+    background: linear-gradient(
+      to right,
+      #febd4c,
+      #fe7718,
+      #e8388d,
+      #e8388d,
+      #6e58db
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right !important; /* Aligning text to the right */
+    display: inline-block; /* Ensures the gradient is applied across the text */
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link.active {
+    background: linear-gradient(to right, #febd4c, #fe7718, #e8388d, #6e58db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right !important; /* Aligning text to the right */
+    display: inline-block; /* Ensures the gradient is applied across the text */
+  }
+  .li {
+    text-align: end;
+  }
+  .collapse.navbar-collapse {
+    padding: 20px 0;
+  }
+  .nncls {
+    display: none !important;
+  }
+  /* banner start */
+  .left h1 {
+    margin-top: 90px;
+    margin-bottom: 18px;
+    font-size: 55px;
+  }
+  .left p {
+    font-size: 16px;
+  }
+  .boton {
+    margin-bottom: 95px;
+    line-height: 2;
+  }
+  .c_cus {
+    margin-right: 15px;
+  }
+  .rndom h2 {
+    font-size: 40px;
+  }
+  .formd {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .banner {
+    padding: 90px 0;
+  }
+  /* platform start */
+  .platform {
+    padding: 90px 0;
+  }
+  .com_h1 h1 {
+    font-size: 50px;
+  }
+  .cus_stl p {
+    margin: 25px 0 46px 0;
+  }
+  .p-3 {
+    padding: 16px !important;
+  }
+  /* buton direction chang */
+  .hold {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+  }
+  .media2,
+  .media3 {
+    order: 1; /* Move these buttons to the top */
+    width: 48%; /* Set width to place them side by side */
+    margin: 0 0; /* Space between the two buttons */
+    margin-bottom: 10px;
+  }
+
+  .media1 {
+    order: 2; /* Move Button 1 to the bottom */
+    width: 100%; /* Full width for the bottom button */
+  }
+  .pad {
+    margin-bottom: 20px;
+  }
+  .v_tu {
+    padding: 7px 0;
+  }
+  /* profile start */
+  .profile {
+    padding-bottom: 300px;
+  }
+
+  .pro_con h1 {
+    font-size: 45px;
+  }
+
+  .pro_lft {
+    margin-bottom: 130px;
+  }
+  /* infulencers start */
+  .influencers {
+    padding-bottom: 90px;
+  }
+  .influ_b {
+    margin: 28px 0 40px 0;
+  }
+  .infu_btn {
+    margin-right: 20px;
+  }
+  .see {
+    margin-top: 40px;
+  }
+  .infu_see {
+    margin: 0;
+  }
+  .m_infu {
+    margin-bottom: 0px;
+  }
+  /* brand promotion start */
+  .brand {
+    padding-bottom: 90px;
+  }
+  .pro_tct h1 {
+    font-size: 36px;
+    margin: 30px 0 50px 30px;
+  }
+  .brnd_img {
+    margin-right: 0px;
+  }
+  .purple img {
+    width: 115px;
+    height: 100px;
+  }
+  .orange img {
+    width: 115px;
+    height: 156px;
+  }
+  .pink img {
+    width: 115px;
+    height: 133px;
+  }
+  .brnd_img img {
+    height: 426px;
+    margin-top: -70px;
+  }
+  .bar p {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .bars-section {
+    margin-left: 30px;
+  }
+  /* help varity start start start */
+  .help {
+    padding-bottom: 90px;
+  }
+  .curved-lines {
+    width: 716px;
+    padding: 89px 0px 0px 0px;
+  }
+
+  .msc {
+    margin-left: 89.5px;
+  }
+  .help_p {
+    margin-left: 89.5px !important;
+  }
+  /* help start */
+  .help_margn {
+    margin-top: -49px;
+    margin-left: 89.5px;
+  }
+  .hep_content {
+    margin-bottom: 70px;
+  }
+  /* question start start start */
+  .question {
+    padding-bottom: 90px;
+  }
+  .ques h1 {
+    margin-bottom: 70px;
+  }
+  .main_ques {
+    font-size: 24px;
+  }
+  .ro_bagn {
+    width: 50px;
+    height: 50px;
+  }
+  .faq-answer {
+    font-size: 17px;
+    margin: 0px 0 40px 0;
+    width: 91%;
+  }
+  /* logos start */
+  .logooo {
+    padding-bottom: 90px;
+  }
+  .blck_ipsum img {
+    margin: 0 30px;
+  }
+  /* ceo start */
+  .ceo {
+    padding-bottom: 90px;
+  }
+  .c_conten {
+    width: 327px;
+  }
+  .c_conten h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .intro_img img {
+    width: 60px;
+    height: 60px;
+  }
+  .c_conten {
+    top: 45%;
+  }
+  /* cmbine footers */
+  .man_foter {
+    margin: -128px 0 0 0;
+    padding: 175px 0 50px 0;
+  }
+  .foot_con {
+    text-align: center;
+    width: 616px;
+    margin: 48px auto;
+  }
+  .foter_navbar {
+    margin-bottom: 20px;
+  }
+  .copyright {
+    margin-top: 18px;
+  }
+  .fot_nav ul li a {
+    font-size: 16px;
+    margin-right: 24px !important;
+  }
+  .foot_con p {
+    font-size: 20px;
+  }
+  .copy_conten p {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .foot_con h1 {
+    font-size: 45px;
+  }
+  .foot_se {
+    margin-top: 15px;
+  }
+  .navbr_fut {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* navbar */
+  .nav ul li a {
+    margin: 0 1px;
+    font-size: 16px;
+  }
+  .buton {
+    font-size: 16px;
+    padding: 0px 15px;
+    border-radius: 32px;
+    margin: 0px 3px;
+  }
+  /* banner start */
+  .left h1 {
+    margin-bottom: 18px;
+    font-size: 50px;
+  }
+  .left p {
+    font-size: 16px;
+  }
+  .boton {
+    margin-bottom: 41px;
+  }
+  .c_cus {
+    margin-right: 15px;
+  }
+  .rndom h2 {
+    font-size: 35px;
+  }
+  /* platform start */
+  .platform {
+    padding: 200px 0;
+  }
+  .com_h1 h1 {
+    font-size: 50px;
+  }
+  .cus_stl p {
+    margin: 25px 0 46px 0;
+  }
+  .p-3 {
+    padding: 10px !important;
+  }
+  /* buton direction chang */
+  .hold {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+  }
+  .media2,
+  .media3 {
+    order: 1; /* Move these buttons to the top */
+    width: 48%; /* Set width to place them side by side */
+    margin: 0 0; /* Space between the two buttons */
+    margin-bottom: 10px;
+  }
+
+  .media1 {
+    order: 2; /* Move Button 1 to the bottom */
+    width: 100%; /* Full width for the bottom button */
+  }
+  /* badgs */
+
+  .follower-badge {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+  .follower-badge img {
+    margin-right: 5px !important;
+  }
+  .star-badge {
+    width: 30px;
+    height: 30px;
+  }
+  .heart-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .v_tu {
+    padding: 7px 0;
+  }
+  /* profile start */
+  .profile {
+    padding-bottom: 200px;
+  }
+  .pro_con .botom {
+    width: 186px;
+    margin: 0 0 80px 20px;
+  }
+  .pro_con h1 {
+    font-size: 40px;
+    padding: 50px 0 34px 20px;
+  }
+  .cus_pro h1 {
+    padding: 39px 0 6px 20px;
+  }
+  /* infulencers start */
+  .influencers {
+    padding-bottom: 200px;
+  }
+  .influ_b {
+    margin: 30px 0 40px 0;
+  }
+  .see {
+    margin-top: 55px;
+  }
+  /* brand promotion start */
+  .brand {
+    padding-bottom: 200px;
+  }
+  .pro_tct h1 {
+    font-size: 48px;
+  }
+  .brnd_img {
+    margin-right: 0px;
+  }
+  .purple img {
+    width: 150px;
+    height: 110px;
+  }
+  .orange img {
+    width: 150px;
+    height: 166px;
+  }
+  .pink img {
+    width: 150px;
+    height: 143px;
+  }
+  .brnd_img img {
+    height: 615px;
+  }
+  /* help varity start start start */
+  .help {
+    padding-bottom: 200px;
+  }
+  .curved-lines {
+    width: 940px;
+    padding: 124px 0px 0px 0px;
+  }
+
+  .msc {
+    margin-left: 118.5px;
+  }
+  .help_p {
+    margin-left: 118.5px !important;
+  }
+  /* help start */
+  .help_margn {
+    margin-top: 25px;
+    margin-left: 118.5px;
+  }
+
+  /* question start start start */
+  .question {
+    padding-bottom: 200px;
+  }
+  .ques h1 {
+    margin-bottom: 70px;
+  }
+  .main_ques {
+    font-size: 28px;
+  }
+  .ro_bagn {
+    width: 55px;
+    height: 55px;
+  }
+  /* logos start */
+  .logooo {
+    padding-bottom: 200px;
+  }
+  .blck_ipsum img {
+    margin: 0 40px;
+  }
+  /* ceo start */
+  .ceo {
+    padding-bottom: 200px;
+  }
+  .c_conten {
+    width: 456px;
+  }
+  .c_conten h2 {
+    margin-bottom: 27px;
+  }
+  /* cmbine footers */
+  .man_foter {
+    margin: -193px 0 0 0;
+    padding: 239px 0 50px 0;
+  }
+  .foot_con {
+    text-align: center;
+    width: 616px;
+    margin: 68px auto;
+  }
+  .foter_navbar {
+    margin-bottom: 20px;
+  }
+  .copyright {
+    margin-top: 18px;
+  }
+  .fot_nav ul li a {
+    margin-right: 10px;
+  }
+  .foot_con h1 {
+    font-size: 50px;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* navbar */
+  .nav ul li a {
+    margin: 0 5px;
+  }
+  /* banner start */
+  .left h1 {
+    margin-bottom: 18px;
+  }
+  .boton {
+    margin-bottom: 50px;
+  }
+  /* platform start */
+  .vew {
+    width: 103px;
+  }
+  .v_tu {
+    width: 56px;
+  }
+  /* profile start */
+  .pro_con .botom {
+    margin: 0 0 100px 40px;
+  }
+  .pro_con h1 {
+    padding: 50px 0 50px 40px;
+  }
+  .cus_pro h1 {
+    padding: 39px 0 18px 40px;
+  }
+  /* brand promotion start */
+  .pro_tct h1 {
+    font-size: 48px;
+  }
+  /* help varity start start start */
+  .curved-lines {
+    width: 1070px;
+    padding: 135px 0px 0px 0px;
+  }
+  .msc {
+    margin-left: 135.5px;
+  }
+  .help_p {
+    margin-left: 135.5px !important;
+  }
+  /* help start */
+  .help_margn {
+    margin-top: 90px;
+    margin-left: 135.5px;
+  }
+  /* ceo start */
+  .for_xl {
+    margin-left: 30px !important;
+  }
+  /* cmbine footers */
+  .man_foter {
+    margin: -227px 0 0 0;
+    padding: 294px 0 50px 0;
+  }
+  .foot_con {
+    margin: 107px auto;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* help start */
+  .help_margn {
+    margin-top: 124px;
+    margin-left: 164.5px;
+  }
+}
+
+/* ////// this are for customs  */
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 2500px) {
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  /* custom for platform */
+  .crd_p {
+    margin-left: 1px;
+    font-size: 9px;
+  }
+  .heigs {
+    font-size: 12px;
+  }
+  .v_tu {
+    padding: 5px 0;
+  }
+  .life {
+    font-size: 11px;
+  }
+  .follower-badge img {
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 2px !important;
+  }
+  .follower-badge {
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  .star-badge {
+    width: 28px;
+    height: 28px;
+  }
+  .heart-icon {
+    width: 30px;
+    height: 30px;
+  }
+  /* brand promotion start */
+  .brand {
+    padding-bottom: 90px;
+  }
+  .pro_tct h1 {
+    font-size: 23px;
+    margin: 18px 0 50px 18px;
+  }
+  .brnd_img {
+    margin-right: 0px;
+  }
+  .purple img {
+    min-width: 70px !important;
+    max-width: 80 !important;
+    height: 60px;
+  }
+  .orange img {
+    min-width: 70px;
+    max-width: 80;
+    height: 86px;
+  }
+  .pink img {
+    min-width: 70px;
+    max-width: 80;
+    height: 78px;
+  }
+  .brnd_img img {
+    height: 280px;
+    margin-top: -45px;
+  }
+  .bar p {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  .bars-section {
+    margin-left: 10px;
+  }
+  /* help varity start start start */
+  .help {
+    padding-bottom: 65px;
+  }
+  .curved-lines {
+    left: -28px;
+    width: 414px;
+    padding: 61px 0px 0px 0px;
+    background-size: 100% 185px;
+  }
+
+  .msc {
+    margin-left: 50.5px;
+  }
+  .help_p {
+    margin-left: 50.5px !important;
+    width: 253px;
+  }
+  /* logos start */
+  .logooo {
+    padding-bottom: 65px;
+  }
+  .blck_ipsum img {
+    margin: 12px 40px;
+  }
+  .log_con {
+    display: flex;
+    justify-content: center;
+  }
+  .log_con p {
+    margin-bottom: 35px;
+    width: 57%;
+    text-align: center;
+  }
+  /* combine footer start */
+
+  .fot_icon .img {
+    cursor: pointer;
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+  }
+  .fot_nav ul li a {
+    margin-right: 36px !important;
+  }
+}
+@media (min-width: 330px) and (max-width: 575px) {
+  /* profile start */
+  .profile {
+    padding-bottom: 65px;
+  }
+
+  .pro_con h1 {
+    font-size: 30px;
+    padding: 72px 0 8px 25px;
+  }
+  .cus_pro h1 {
+    padding: 32px 0 9px 25px;
+  }
+  .pro_con .botom {
+    font-size: 11px;
+    line-height: 1.5;
+    width: 120px;
+    margin: 0 0 140px 25px;
+  }
+  .pro_con .botam {
+    margin: 0 0 140px 25px;
+  }
+  .pro_lft {
+    margin-bottom: 40px;
+  }
+  /* .pro_img{
+    height: 400px;
+}/*
+.pro_img img{
+    height: 100%;
+} */
+  .pro_rght {
+  }
+  .pro_img img {
+    width: 100%;
+    height: -webkit-fill-available;
+  }
+  .pro_img {
+    height: 400px;
+  }
+  .pro_con {
+    padding: 0 0 0 0;
+  }
+  .cus_pro {
+  }
+}

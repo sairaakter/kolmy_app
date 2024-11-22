@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import foter_logo from "../assets/foter_logo.png";
 
 export default function MainFooter() {
@@ -8,35 +9,35 @@ export default function MainFooter() {
         <nav className="foter_navbar navbar navbar-expand-lg">
           <div className="container-fluid p-0 layout">
             {/* <!-- logo --> */}
-            <a className="navbar-brand" href="./kol.html">
+            <Link className="navbar-brand" to="/">
               <img className="logo img-fluid" src={foter_logo} />
-            </a>
+            </Link>
             {/* <!-- nav --> */}
             <div className="nav fot_nav">
               <ul className="ul navbar-nav navbr_fut ms-auto mb-2 mb-lg-0 me-col-auto">
                 <li className="li nav-item dropdown">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/">
                     {" "}
                     Find KOLs{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="li nav-item dropdown">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/">
                     {" "}
                     Find Jobs{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="li nav-item dropdown">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/">
                     {" "}
                     FAQs{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="li nav-item dropdown">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/">
                     {" "}
                     Contact Us{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -45,7 +46,7 @@ export default function MainFooter() {
         <div className="bdr"></div>
         <div className="copyright">
           <div className="fot_icon">
-            <a href="https://www.youtube.com">
+            <Link to="https://www.youtube.com">
               <svg
                 className="img"
                 width="22"
@@ -59,9 +60,9 @@ export default function MainFooter() {
                   fill="white"
                 />
               </svg>
-            </a>
+            </Link>
 
-            <a href="https://www.facebook.com">
+            <Link to="https://www.facebook.com">
               <svg
                 className="img"
                 width="20"
@@ -75,10 +76,10 @@ export default function MainFooter() {
                   fill="white"
                 />
               </svg>
-            </a>
+            </Link>
 
             {/* <!-- <img class="img-fluid" src="./image/fut_gram.png"> --> */}
-            <a href="https://www.instagram.com">
+            <Link to="https://www.instagram.com">
               <svg
                 className="img"
                 width="20"
@@ -92,7 +93,7 @@ export default function MainFooter() {
                   fill="white"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
           <div className="copy_conten ms-auto">
             <div style={{ width: "max-content" }}>

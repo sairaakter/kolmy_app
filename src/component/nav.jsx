@@ -1,4 +1,5 @@
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link } from "react-router-dom";
 import logo from "../assets/kologo.png";
 import togle from "../assets/togle.png";
 
@@ -10,9 +11,9 @@ export default function Nav() {
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid p-0">
               {/* logo */}
-              <a className="navbar-brand" href="./kol.html">
+              <Link className="navbar-brand" to="/">
                 <img className="logo img-fluid" src={logo} />
-              </a>
+              </Link>
               {/* <!-- Buttons next to the toggle for medium screens and smaller --> */}
               <div className="d-lg-none d-col-none ms-auto d-flex align-items-center">
                 <button className="buton btn cas me-2" type="button">
@@ -42,153 +43,153 @@ export default function Nav() {
               <div className="collapse navbar-collapse nav" id="c_nav">
                 <ul className="ul navbar-nav m-auto mb-2 mb-lg-0">
                   <li className="li nav-item dropdown">
-                    <a
+                    <Link
                       className="nav-link  active"
-                      href="#"
+                      to="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Home
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           I am KOL
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           I am Brand
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           FAQ
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="li nav-item dropdown">
-                    <a
-                      className="nav-link "
-                      href="#"
+                    <Link
+                      className="nav-link"
+                      to="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Find KOL
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           I am KOL
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           {" "}
                           I am Brand
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           FAQ
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="li nav-item dropdown">
-                    <a
+                    <Link
                       className="nav-link"
-                      href="#"
+                      to="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       How It Works
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item " href="#">
+                        <Link className="dropdown-item " to="/">
                           {" "}
                           I am KOL
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           {" "}
                           I am Brand
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           FAQ
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="li nav-item dropdown">
-                    <a
+                    <Link
                       className="nav-link"
-                      href="#"
+                      to="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       About Us
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           {" "}
                           I am KOL
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           {" "}
                           I am Brand
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           FAQ
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="li nav-item dropdown">
-                    <a
+                    <Link
                       className="nav-link"
-                      href="#"
+                      to="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Contact
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           I am KOL
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           {" "}
                           I am Brand
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           FAQ
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -196,9 +197,9 @@ export default function Nav() {
                 <div className="d-flex d_nav" role="search">
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0 m-md-auto">
                     <li className="nav-item dropdown li">
-                      <a
+                      <Link
                         className="active nav-link dropdown-toggle nncls"
-                        href="#"
+                        to="/"
                         id="languageDropdown"
                         role="button"
                         data-toggle="dropdown"
@@ -209,26 +210,26 @@ export default function Nav() {
                         <ExpandMoreIcon
                           style={{ fontSize: "16px", marginLeft: "4px" }}
                         />
-                      </a>
+                      </Link>
 
                       <ul className="dropdown-menu">
                         <li>
-                          <a className=" dropdown-item" href="#">
+                          <Link className=" dropdown-item" to="/">
                             I am KOL
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" to="/">
                             {" "}
                             I am Brand
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="#">
+                          <Link className="dropdown-item" to="/">
                             {" "}
                             FAQ
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>

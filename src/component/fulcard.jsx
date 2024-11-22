@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import bookmark from "../assets/bookmark.png";
 import Chart from "../assets/Chart.png";
 import doller from "../assets/doller.png";
@@ -58,18 +59,18 @@ export default function Fulcard({ src }) {
             </h5>
             {/* <!-- Social Media Icons --> */}
             <div className="social-media-icons">
-              <a href="https://instagram.com" className="social-icon">
+              <Link to="https://instagram.com" className="social-icon">
                 <img src={insta} alt="Facebook" />
-              </a>
-              <a href="https://facebook.com" className="social-icon">
+              </Link>
+              <Link to="https://facebook.com" className="social-icon">
                 <img src={facbok} alt="Twitter" />
-              </a>
-              <a href="https://twitter.com" className="social-icon">
+              </Link>
+              <Link to="https://twitter.com" className="social-icon">
                 <img src={tea} alt="Instagram" />
-              </a>
-              <a href="https://youtube.com" className="social-icon">
+              </Link>
+              <Link to="https://youtube.com" className="social-icon">
                 <img src={youtube} alt="Instagram" />
-              </a>
+              </Link>
             </div>
 
             {/* <!-- Categories --> */}

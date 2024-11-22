@@ -2,9 +2,12 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import { Route, HashRouter as Router, Routes } from "react-router-dom"; // Change here
 import "../style/app.css";
 import "../style/media.css";
 import Layout from "./layout";
+import About from "./pages/about";
+import Contact from "./pages/contact";
 import Home from "./pages/home";
 // import {
 //   Button,
@@ -18,9 +21,20 @@ import Home from "./pages/home";
 function App() {
   return (
     <>
-      <Layout>
+      {/* <Layout>
         <Home />
-      </Layout>
+      </Layout> */}
+      <Router>
+        {" "}
+        {/* Change BrowserRouter to HashRouter */}
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/About" element={<About />} />
+          </Routes>
+        </Layout>
+      </Router>
     </>
   );
 }
